@@ -1,0 +1,17 @@
+class foreach{
+public static void main(String args[]){
+	
+int arr[][] = {{1,10,20,19,20},{1,2,3,4,5},{6,7,8,9,10}};
+for(int m[]:arr){
+	for(int n:m){
+System.out.print(n+ " ");
+}
+System.out.println();
+}
+
+
+
+}
+
+
+}
